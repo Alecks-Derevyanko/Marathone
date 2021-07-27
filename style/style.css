@@ -1,7 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a{
+  color: rgba(0,0,0, 0.5);
+  font-size: 20px;
+  font-weight: 700px;
+  text-decoration: none;
+}
 .container{
   max-width: 1200px;  
   margin: 0 auto;
 }
 .button{
 padding: 16px 0px;
+}
+.app{
+  background-image: url(../img/bg-1.png);
+  text-align: center;
+  color: white;
+}
+.app-text{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.app-title{
+font-weight: bold;
+font-size: 58px;
+line-height: 80px;
+max-width: 800px;
+margin: 10px auto;
 }
