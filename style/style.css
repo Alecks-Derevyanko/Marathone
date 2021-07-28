@@ -5,12 +5,6 @@
   font-weight: normal;
 }
 
-a{
-  color: rgba(0,0,0, 0.5);
-  font-size: 20px;
-  font-weight: 700px;
-  text-decoration: none;
-}
 .container{
   max-width: 1200px;  
   margin: 0 auto;
@@ -96,4 +90,23 @@ margin: 10px auto;
 .button-container > .button-2:last-of-type {
   background: none;
   border: 1px solid white;
+  }
+  header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .nav-span:not-last-child{
+    margin-right: 100px;
+
+  }
+  .nav-link{
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-decoration: none;
+  }
+  .nav-link:hover{
+    color: #FA4A0C;
   }
