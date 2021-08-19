@@ -17,6 +17,10 @@
     url('../fonts/helveticaneuecyr-bold.svg#helveticaneuecyr-bold') format('svg');
   /* Chrome < 4, Legacy iOS */
 }
+
+:root{
+  --accent-color: #FFFFFF;
+}
 body {
   font-family: 'HelveticaNeueCyr-Bold';
   font-style: normal;
@@ -35,5 +39,38 @@ font-weight: 400px;
 font-size: 16px;
 line-height: 1.313;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--accent-color);
+}
+
+.hero-title{
+  font-weight: 900px;
+  font-size: 62px;
+  line-height: 1.242;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+color: var(--accent-color);
+}
+
+.subtitle{
+font-weight: 400px;
+font-size: 18px;
+line-height: 1.777;
+letter-spacing: 0.05em;
+color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-button{
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 1.333;
+  letter-spacing: 0.03em;
+}
+
+.button-light-theme {
+color: #1E3C72;
+}
+
+
+.button-dark-theme {
+color: var(--accent-color);
 }
