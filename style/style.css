@@ -17,6 +17,10 @@
     url('../fonts/helveticaneuecyr-bold.svg#helveticaneuecyr-bold') format('svg');
   /* Chrome < 4, Legacy iOS */
 }
+body {
+  font-family: 'HelveticaNeueCyr-Bold';
+  font-style: normal;
+}
 ul,
 ol {
   list-style: none;
@@ -24,6 +28,12 @@ ol {
 a {
   text-decoration: none;
 }
-body {
-font-family: 'HelveticaNeueCyr-Bold';
+
+
+.navigation-list-link{
+font-weight: 400px;
+font-size: 16px;
+line-height: 1.313;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
