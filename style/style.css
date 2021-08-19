@@ -17,3 +17,13 @@
     url('../fonts/helveticaneuecyr-bold.svg#helveticaneuecyr-bold') format('svg');
   /* Chrome < 4, Legacy iOS */
 }
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+font-family: 'HelveticaNeueCyr-Bold';
+}
