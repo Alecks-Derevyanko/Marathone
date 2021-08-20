@@ -106,15 +106,21 @@ color: var(--subtitle-dark-theme-color);
   font-size: 18px;
   line-height: 1.333;
   letter-spacing: 0.03em;
+  padding: 15px 20px;
+  width: 160px;
+  height: 53px;
+  border-radius: 8px;
 }
 
 .button-light-theme {
 color: var(--light-theme-color);
+background: var(--dark-theme-color);
 }
 
 
 .button-dark-theme {
 color: var(--dark-theme-color);
+border: 2px solid #FFFFFF;
 }
     /* --Hero end-- */
         /* --About-- */
