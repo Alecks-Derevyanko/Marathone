@@ -23,7 +23,7 @@
   --dark-theme-color: #FFFFFF;
   --light-theme-color: #1E3C72;
   --subtitle-light-theme-color: #375D9F;
-  --subtitle-dark-theme-color: # rgba(255, 255, 255, 0.9);
+  --subtitle-dark-theme-color: rgba(255, 255, 255, 0.9);
   --text-color:#2A5298;
 }
 body {
