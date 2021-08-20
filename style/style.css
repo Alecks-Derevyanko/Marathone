@@ -54,6 +54,9 @@ img{
 .header{
   padding: 35px 0;
 }
+.header .container{
+  padding: 0 167px;
+}
 
 .navigation{
   display: flex;
