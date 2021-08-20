@@ -61,11 +61,10 @@ img{
 .navigation{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-  margin-right: 866px;
-}
+
 .navigation-list-item:not(:last-child){
   margin-right: 40px;
 }
