@@ -136,21 +136,24 @@ color: var(--light-theme-color);
           /* --Choose end-- */
           /* --character-player-4-- */
 
-.character-player-4-title{
+.character-player-4-title,
+.character-player-5-title{
   font-weight: 700;
   font-size: 24px;
   line-height: 1.333;
   color: var(--light-theme-color);
 }
 
-.character-player-4-description{
-font-weight: 400;
+.character-player-4-description,
+.character-player-5-description {
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.333;
   color: var(--light-theme-color);
 }
 
-.character-player-4-text{
+.character-player-4-text,
+.character-player-5-text {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
@@ -160,9 +163,34 @@ color: var(--subtitle-light-theme-color);
           /* --character-player-4 end-- */
 
           /* --character-player-5-- */
-.character-player-5-title{
-  
-}
+
+
+
 
           /* --character-player-5 end-- */
+          /* --character-player-6-- */
+
+.character-player-6-title{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.333;
+  color: var(--light-theme-color);
+}
+
+.character-player-6-description{
+font-weight: 400;
+font-size: 20px;
+line-height: 1.35;
+color: var(--light-theme-color);
+}
+
+.character-player-6-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--subtitle-light-theme-color);
+}
+
+
+          /* --character-player-6 end-- */
 
