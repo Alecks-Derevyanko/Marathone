@@ -143,7 +143,7 @@ color: var(--light-theme-color);
   color: var(--light-theme-color);
 }
 
-.character-player-4-descrption{
+.character-player-4-description{
 font-weight: 400;
   font-size: 24px;
   line-height: 1.333;
@@ -158,3 +158,11 @@ color: var(--subtitle-light-theme-color);
 }
 
           /* --character-player-4 end-- */
+
+          /* --character-player-5-- */
+.character-player-5-title{
+  
+}
+
+          /* --character-player-5 end-- */
+
