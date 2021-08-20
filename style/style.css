@@ -1,4 +1,6 @@
-*{
+*,
+*::before,
+*::after{
   margin: 0;
   padding: 0;
 }
@@ -40,7 +42,35 @@ a {
   text-decoration: none;
 }
 
+img{
+  display: block;
+}
+
+.container{
+  width: 1440px;
+}
+
   /* --Header-- */
+.header{
+  padding: 35px 0;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin-right: 866px;
+}
+.navigation-list-item:not(:last-child){
+  margin-right: 40px;
+}
+
+.navigation-list{
+  display: flex;
+}
+
 .navigation-list-link{
 font-weight: 400;
 font-size: 16px;
