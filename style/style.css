@@ -25,6 +25,8 @@
   --subtitle-light-theme-color: #375D9F;
   --subtitle-dark-theme-color: rgba(255, 255, 255, 0.9);
   --text-color:#2A5298;
+  --input-color:#747474;
+  --footer-button-color:#202020;
 }
 body {
   font-family: var(--main-font);
@@ -194,3 +196,61 @@ color: var(--light-theme-color);
 
           /* --character-player-6 end-- */
 
+          /* --get-- */
+.get-title{
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.333;
+  color: var(--light-theme-color);
+}
+
+.get-description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  color: var(--subtitle-light-theme-color);
+}
+
+.get-button{
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 1.643;
+  text-transform: uppercase;
+  color: var(--dark-theme-color);
+}
+
+
+          /* --get end-- */
+          /* --footer-- */
+.footer-titel{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.667;
+  text-transform: uppercase;
+  color: var(--dark-theme-color);
+}
+
+.footer-description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  color: var(--dark-theme-color);
+}
+
+.footer-input{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.688;
+  color: var(--input-color);
+}
+
+.footer-button{
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 1.688;
+  color:var(--footer-button-color) ;
+}
+
+
+
+          /* --footer end-- */
