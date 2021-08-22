@@ -428,6 +428,11 @@ justify-content: center;
   padding-right: 216px;
 }
 
+.character-fifth-player-left-side {
+  padding-right: 100px;
+  padding-left: 216px;
+}
+
 
 .character-fourth-player-title,
 .character-fifth-player-title {
