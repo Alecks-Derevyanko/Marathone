@@ -52,6 +52,7 @@ img{
 
   /* --Header-- */
 .header{
+  position: absolute;
   padding: 35px 0;
 }
 .header .container{
@@ -87,10 +88,11 @@ color: var(--dark-theme-color);
 .hero .container{
   display: flex;
   background: linear-gradient(90deg, #1E3C72 0%, #1E3C72 1%, #2A5298 100%);
-  background-image:
-  url(../img/bg-1.jpg);
+  /*background-image:
+  url(../img/bg-1.png),
+  url(../img/bg-2.png);
   background-repeat: no-repeat;
-  background-position: left top, left 120px top;
+  background-position: left top, left 120px top;*/
   background-size: auto; 
 }
 
@@ -150,6 +152,7 @@ padding-right: 12px;
 
 .button-dark-theme {
 color: var(--dark-theme-color);
+background-color: transparent;
 }
 
 .hero-right-side-list{
@@ -276,6 +279,7 @@ background-image: url(../img/bg-robots.jpg);
   border-radius: 80px;
   display: block;
   margin: 0 auto;
+  background-color: transparent;
 }
 
 
@@ -542,6 +546,11 @@ padding-bottom: 18px;
   background: #FFFFFF;
   box-shadow: 3px 3px 30px -2px rgba(80, 66, 92, 0.6);
   border-radius: 100px;
+  padding-left: 35px;
+}
+
+.input-wrapper{
+  position: relative;
 }
 
 .footer-button{
@@ -556,6 +565,9 @@ padding-bottom: 18px;
   background: linear-gradient(90deg, #4152A1 0%, #C251CB 100%);
   border-radius: 100px;
   padding: 13px 65px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
 }
 
 
