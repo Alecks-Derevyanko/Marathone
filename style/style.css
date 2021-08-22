@@ -159,17 +159,69 @@ background-color: transparent;
   display: flex;
 }
 
-.hero-right-side-list-item:not(:last-child){
+.first-card {
+  width: 329px;
+  height: 575px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 38px 9px #192E55;
+  border-radius: 8px;
   margin-right: 46px;
+  margin-top: 178px;
+  padding: 12px 13px;
 }
 
-
-.hero-right-side-list-item:first-child{
-  padding-top: 178px;
+.first-card-img {
+  padding-bottom: 15px;
 }
 
-.hero-right-side-list-item:last-child{
-  padding-top: 236px;
+.first-card-title{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.313;
+  letter-spacing: 0.03em;
+  color: var(--input-color);
+  padding-bottom: 8px;
+}
+
+.first-card-description{
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 1.333;
+  letter-spacing: 0.03em;
+  color: var(--footer-button-color);
+
+}
+
+.second-card{
+  width: 244px;
+  height: 427px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 38px 9px #192E55;
+  border-radius: 8px;
+  margin-top: 236px;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+
+.second-card-img {
+  padding-bottom: 4px;
+}
+
+.second-card-title{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.357;
+  letter-spacing: 0.03em;
+  color: var(--input-color);
+  padding-bottom: 5px;
+}
+
+.second-card-description{
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 1.313;
+  letter-spacing: 0.03em;
+  color: var(--footer-button-color);
 }
 
     /* --Hero end-- */
@@ -347,38 +399,38 @@ justify-content: center;
           /* --Choose end-- */
           /* --character-player-4-- */
 
-.character-player-4{
+.character-fourth-player{
   background-color: #F7F7F7;
   background-image: url(../img/bg-player-4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.character-player-4 .container,
-.character-player-5 .container,
-.character-player-6 .container{
+.character-fourth-player .container,
+.character-fifth-player .container,
+.character-sixth-player .container {
   display: flex;
 }
 
-.character-player-4-right-side,
-.character-player-4-left-side,
-.character-player-5-right-side,
-.character-player-5-left-side,
-.character-player-6-right-side,
-.character-player-6-left-side{
+.character-fourth-player-right-side,
+.character-fourth-player-left-side,
+.character-fifth-player-right-side,
+.character-fifth-player-left-side,
+.character-sixth-player-right-side,
+.character-sixth-player-left-side {
   width: 50%;
 }
 
-.character-player-4-right-side,
-.character-player-5-left-side {
+.character-fourth-player-right-side,
+.character-fifth-player-left-side {
   padding-top: 48px;
   padding-left: 100px;
   padding-right: 216px;
 }
 
 
-.character-player-4-title,
-.character-player-5-title{
+.character-fourth-player-title,
+.character-fifth-player-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.333;
@@ -386,8 +438,8 @@ justify-content: center;
   padding-bottom: 4px;
 }
 
-.character-player-4-description,
-.character-player-5-description {
+.character-fourth-player-description,
+.character-fifth-player-description {
   font-weight: 400;
   font-size: 24px;
   line-height: 1.333;
@@ -395,17 +447,17 @@ justify-content: center;
   padding-bottom: 10px;
 }
 
-.character-player-4-text,
-.character-player-5-text {
+.character-fourth-player-text,
+.character-fifth-player-text {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 color: var(--subtitle-light-theme-color);
 }
 
-.character-player-4-left-side,
-.character-player-5-right-side,
-.character-player-6-left-side{
+.character-fourth-player-left-side,
+.character-fifth-player-right-side,
+.character-sixth-player-left-side {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -414,7 +466,7 @@ justify-content: center;
           /* --character-player-4 end-- */
 
           /* --character-player-5-- */
-.character-player-5 {
+.character-fifth-player{
   background-color: #F7F7F7;
   background-image: url(../img/bg-player-5.png);
   background-repeat: no-repeat;
@@ -426,13 +478,13 @@ justify-content: center;
           /* --character-player-5 end-- */
           /* --character-player-6-- */
 
-.character-player-6-right-side{
+.character-sixth-player-right-side {
   padding-top: 106px;
   padding-left: 74px;
   padding-right: 236px;
 }
 
-.character-player-6-title{
+.character-sixth-player-title {
   font-weight: 400;
   font-size: 36px;
   line-height: 1.333;
@@ -440,7 +492,7 @@ justify-content: center;
   padding-bottom: 9px;
 }
 
-.character-player-6-description{
+.character-sixth-player-description {
 font-weight: 400;
 font-size: 20px;
 line-height: 1.35;
@@ -448,7 +500,7 @@ color: var(--light-theme-color);
 padding-bottom: 18px;
 }
 
-.character-player-6-text{
+.character-sixth-player-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
@@ -535,14 +587,13 @@ padding-bottom: 18px;
 .footer-input{
   font-family: var(--main-font);
   font-style: normal;
-  width: 540px;
-  height: 62px;
+  width: 100%;
+  height: 100%;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.688;
   color: var(--input-color);
   display: block;
-  margin: 0 auto;
   background: #FFFFFF;
   box-shadow: 3px 3px 30px -2px rgba(80, 66, 92, 0.6);
   border-radius: 100px;
@@ -551,6 +602,9 @@ padding-bottom: 18px;
 
 .input-wrapper{
   position: relative;
+  width: 540px;
+  height: 62px;
+  margin: 0 auto;
 }
 
 .footer-button{
