@@ -399,17 +399,19 @@ justify-content: center;
           /* --Choose end-- */
           /* --character-player-4-- */
 
-.character-fourth-player{
+.character-fourth-player .container{
   background-color: #F7F7F7;
   background-image: url(../img/bg-player-4.png);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .character-fourth-player .container,
 .character-fifth-player .container,
 .character-sixth-player .container {
   display: flex;
+  
 }
 
 .character-fourth-player-right-side,
@@ -471,7 +473,7 @@ justify-content: center;
           /* --character-player-4 end-- */
 
           /* --character-player-5-- */
-.character-fifth-player{
+.character-fifth-player .container{
   background-color: #F7F7F7;
   background-image: url(../img/bg-player-5.png);
   background-repeat: no-repeat;
